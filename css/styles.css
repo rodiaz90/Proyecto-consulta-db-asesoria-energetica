@@ -1,0 +1,42 @@
+body {
+    background-image: url("../fondo.avif"); 
+    opacity: 0.8; 
+    font-family: 'Arial', sans-serif; 
+    margin: 0; 
+    padding-top: 60px; 
+}
+
+.container {
+    background-color: rgba(248, 249, 250, 0.8); 
+    padding: 20px; 
+    border-bottom: 2px solid rgba(222, 226, 230, 0.8); 
+    text-align: center; 
+    border-radius: 5px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+.container h1 {
+    color: rgba(52, 58, 64, 0.8); 
+}
+
+#searchBtn {
+    background-color: rgba(0, 123, 255, 0.8); 
+    border-color: rgba(0, 123, 255, 0.8); 
+}
+
+#results {
+    background-color: rgba(241, 241, 241, 0.8); 
+}
+
+#chart {
+    max-width: 100%; 
+    height: auto; 
+    margin: 0 auto; 
+}
+
+@media screen and (max-width: 767px) {
+    #chart {
+        max-width: 100%;
+    }
+}
+
